@@ -4,8 +4,8 @@ import { FC } from 'react'
 
 export const Header: FC = () => {
   return (
-    <header className={`${nunito.className} text-black px-5 py-3 bg-white`}>
-      <div className="flex items-center justify-between mx-auto max-w-[1920px]">
+    <header className={`${nunito.className} text-black px-5 py-3 bg-white mb-20`}>
+      <div className="flex items-center justify-between mx-auto max-w-[1780px]">
         <div className="flex items-center gap-4">
           <Image width={50} height={50} alt="Логотип компании" src="/logo.png" />
           <h1 className={`text-[36px] `}>FitFuel</h1>
