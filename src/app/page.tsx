@@ -1,5 +1,6 @@
 import { Benefits } from '@/components/sections/Benefits'
 import { Hero } from '@/components/sections/Hero'
+import { Products } from '@/components/sections/Products'
 import { Line } from '@/components/ui/Line'
 
 export default function Home() {
@@ -8,6 +9,8 @@ export default function Home() {
       <Hero />
       <Line />
       <Benefits />
+      <Line />
+      <Products />
     </div>
   )
 }
