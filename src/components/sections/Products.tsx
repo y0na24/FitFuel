@@ -68,23 +68,23 @@ export const Products: FC = () => {
           <TabsTrigger className='text-lg' value="minerals">Minerals</TabsTrigger>
         </TabsList>
         <TabsContent value="protein">
-          <div className="grid grid-cols-1 gap-2 lg:grid-cols-3 max-w-[1000px] mx-auto">
+          <div className="grid grid-cols-1 gap-3 lg:grid-cols-3 max-w-[1000px] mx-auto">
             {productsList.protein.map((item) => (
-              <ProductCard imageUrl={item.imageUrl} name={item.name} key={item.id} />
+              <ProductCard isUsers={false} imageUrl={item.imageUrl} name={item.name} key={item.id} />
             ))}
           </div>
         </TabsContent>
         <TabsContent value="creatine">
           <div className="grid grid-cols-1 gap-2 lg:grid-cols-3 max-w-[1000px] mx-auto">
             {productsList.creatine.map((item) => (
-              <ProductCard imageUrl={item.imageUrl} name={item.name} key={item.id} />
+              <ProductCard isUsers={false} imageUrl={item.imageUrl} name={item.name} key={item.id} />
             ))}
           </div>
         </TabsContent>
         <TabsContent value="minerals">
           <div className="grid grid-cols-1 gap-2 lg:grid-cols-3 max-w-[1000px] mx-auto">
             {productsList.minerals.map((item) => (
-              <ProductCard imageUrl={item.imageUrl} name={item.name} key={item.id} />
+              <ProductCard isUsers={false} imageUrl={item.imageUrl} name={item.name} key={item.id} />
             ))}
           </div>
         </TabsContent>
