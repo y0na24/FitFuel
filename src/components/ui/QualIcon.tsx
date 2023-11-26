@@ -5,7 +5,7 @@ interface QualIconProps {}
 export const QualIcon: FC<QualIconProps> = ({}) => {
   return (
     <svg
-      className='group-hover:fill-black'
+      className='group-hover:fill-black w-16 h-16 lg:w-auto lg:h-auto'
       fill="#fff"
       height="100px"
       width="100px"

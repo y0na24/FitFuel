@@ -6,9 +6,9 @@ export const Header: FC = () => {
   return (
     <header className={`${nunito.className} text-black px-5 py-3 bg-white mb-20`}>
       <div className="flex items-center justify-between mx-auto max-w-[1780px]">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 md:gap-4">
           <Image width={50} height={50} alt="Логотип компании" src="/logo.png" />
-          <h1 className={`text-[36px] `}>FitFuel</h1>
+          <h1 className={`text-2xl md:text-[36px]`}>FitFuel</h1>
         </div>
         <nav>
           <ul className="flex items-center text-lg gap-6">

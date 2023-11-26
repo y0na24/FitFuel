@@ -5,7 +5,7 @@ interface RelationIconProps {}
 export const RelationIcon: FC<RelationIconProps> = () => {
   return (
     <svg
-      className="group-hover:fill-black"
+      className="group-hover:fill-black w-16 h-16 lg:w-auto lg:h-auto"
       height="100px"
       width="100px"
       fill="#fff"

@@ -5,7 +5,7 @@ interface SpeedIconProps {}
 export const SpeedIcon: FC<SpeedIconProps> = ({}) => {
   return (
     <svg
-      className="group-hover:fill-black"
+      className="group-hover:fill-black w-16 h-16 lg:w-auto lg:h-auto"
       fill="#ffffff"
       height="100px"
       width="100px"
